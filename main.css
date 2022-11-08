@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  direction: rtl;
+  background-color: rgb(151, 151, 151);
+}
+.article {
+  width: 75vw;
+  margin-top: 30%;
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 15px;
+}
+.section {
+  height: 300px;
+  background-color: aliceblue;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 300px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  height: 60%;
+  z-index: 0;
+}
+.limg {
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  margin-top: -35px;
+  margin-right: 15px;
+}
